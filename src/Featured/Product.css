@@ -1,0 +1,41 @@
+.categories {
+    text-align: center;
+  }
+  
+  .categories h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category {
+    margin: 1rem;
+    width: 20rem;
+  }
+  
+  .category img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+  }
+  
+  .category h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .category a {
+    font-size: 1.2rem;
+    background-color: #FFC107;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
