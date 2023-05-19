@@ -11,28 +11,29 @@ function Product() {
       <h2>Product Categories</h2>
       <div className="category-list">
         <div className="category">
-        <img src={l5}/>
-          <h3>Action Games</h3>
-          <a href="#">Shop Now</a>
+        <img src={l5} alt="Action Games" /> {/* Render the image for Action Games */}
+          <h3>Action Games</h3> {/* Render the title for Action Games */}
+          <a href="#">Shop Now</a> {/* Render the "Shop Now" link */}
         </div>
         <div className="category">
-        <img src={l8}/>
-          <h3>Adventure Games</h3>
-          <a href="#">Shop Now</a>
+          <img src={l8} alt="Adventure Games" /> {/* Render the image for Adventure Games */}
+          <h3>Adventure Games</h3> {/* Render the title for Adventure Games */}
+          <a href="#">Shop Now</a> {/* Render the "Shop Now" link */}
         </div>
         <div className="category">
-        <img src={l6}/>
-          <h3>Simulation Games</h3>
-          <a href="#">Shop Now</a>
+          <img src={l6} alt="Simulation Games" /> {/* Render the image for Simulation Games */}
+          <h3>Simulation Games</h3> {/* Render the title for Simulation Games */}
+          <a href="#">Shop Now</a> {/* Render the "Shop Now" link */}
         </div>
         <div className="category">
-        <img src={l7}/>
-          <h3>Strategy Games</h3>
-          <a href="#">Shop Now</a>
+          <img src={l7} alt="Strategy Games" /> {/* Render the image for Strategy Games */}
+          <h3>Strategy Games</h3> {/* Render the title for Strategy Games */}
+          <a href="#">Shop Now</a> {/* Render the "Shop Now" link */}
         </div>
       </div>
     </section>
   );
 }
+
 
 export default Product
