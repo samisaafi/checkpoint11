@@ -5,8 +5,8 @@ function HeroSection() {
   return (
     <section className="hero">
       <div className="banner">
-      <img src={l4}/>
-        <button>Shop Now</button>
+      <img src={l4}/>/* Render the hero image */
+        <button>Shop Now</button>/* Render the "Shop Now" button */
       </div>
     </section>
   );
