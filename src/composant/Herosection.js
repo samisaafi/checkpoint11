@@ -1,6 +1,8 @@
 import React from 'react';
 import './Herosection.css';
 import l4 from '../assets/8.jpg'
+// HeroSection component definition
+
 function HeroSection() {
   return (
     <section className="hero">
